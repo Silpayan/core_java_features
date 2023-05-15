@@ -34,7 +34,7 @@ public class GenStats<T extends Number> {
 		Double dnums[] = {1.0,2.0,3.0,4.0,5.3};
 		GenStats<Double> dob = new GenStats<Double>(dnums);//GenStats dob = new GenStats(dnums); T = Object
 		double w = dob.average();
-		System.out.println("dob average : "+w);
+		System.out.println("dob average : "+w); //
 		
 		System.out.print("Average of iob and dob is ");
 		if(iob.sameAvg(dob))
