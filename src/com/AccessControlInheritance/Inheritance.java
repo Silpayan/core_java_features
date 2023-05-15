@@ -39,7 +39,10 @@ class AClass{
 
 class BClass extends AClass{
 	String className = "B";
-	
+
+	BClass() throws Exception {
+	}
+
 	static void test(){
 		
 	}

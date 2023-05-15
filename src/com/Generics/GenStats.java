@@ -37,7 +37,7 @@ public class GenStats<T extends Number> {
 		System.out.println("dob average : "+w); //
 		
 		System.out.print("Average of iob and dob is ");
-		if(iob.sameAvg(dob))
+		if(iob.sameAvg(iob)) //(dob))
 			System.out.println("same");
 		else
 			System.out.println("different");

@@ -16,7 +16,12 @@ class A implements AB{
 		return new C();
 		
 	}
-	
+
+	@Override
+	public void Stat() {
+
+	}
+
 	public void Test(){
 		System.out.println("Class A - Test");
 	}
