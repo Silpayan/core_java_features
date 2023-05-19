@@ -1,8 +1,11 @@
 package com.Thread;
 
+import com.ds.LinkedList;
+
 public class WaitNotify extends Thread{
 	
 	static WaitNotify o = new WaitNotify();
+	String s = "String";
 	public static void main(String s[]){
 		Thread t1 = new Thread(new WaitNotify());
 		Thread t2 = new Thread(new WaitNotify());
@@ -17,7 +20,7 @@ public class WaitNotify extends Thread{
 	}
 	
 	public void doJob(){
-		synchronized (o) {
+		synchronized (o) { //synchronized(s)
 			try{
 				wait(100);
 			}catch(InterruptedException ie){
