@@ -9,7 +9,7 @@ public class StreamTest {
 
     public static void main(String[] args){
 
-        List<Integer> nums = Arrays.asList(9,5,10,34,54,4,5);
+        List<Integer> nums = Arrays.asList(9,5,10,34,54,4,5); //test check in after moving local folder
 
         Stream<Integer> data = nums.stream();
 
